@@ -1,0 +1,40 @@
+.App {
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  border: 1px solid black;
+}
+.googleTimer .head{
+  border-bottom: 1px solid black;
+  display: flex;
+
+}
+.googleTimer .head button{
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+}
+.googleTimer .head button:hover{
+  cursor: pointer;
+}
+.head>button:active{
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.googleTimer h2{
+  margin-left: 5%;
+}
+.googleTimer button{
+  height: 30px;
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.border{
+  border-bottom: 1px solid black;
+}
+.border h2{
+  margin-top: 10%;
+  margin-bottom: 10%; 
+}
